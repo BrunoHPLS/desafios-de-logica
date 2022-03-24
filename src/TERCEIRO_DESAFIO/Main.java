@@ -20,10 +20,6 @@ public class Main {
         for(int i=0;i<array.length;i++){
             Integer atual = array[i];
             for(int in=0;in<array.length;in++){
-                if(atual==array[in]){
-                    continue;
-                }
-
                 if( (atual-array[in]) == K){
                     pares++;
                 }
